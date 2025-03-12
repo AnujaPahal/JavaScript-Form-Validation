@@ -3,37 +3,50 @@ document.querySelector('#form-Submit').addEventListener('click',function(){
 
     if(document.querySelector('.firstname').value === ''){
         document.querySelector('.error').innerText = 'First Name is wrong'
+        return;
     }else{
         document.querySelector('.error').innerText= ''
     }
-})
 
-document.querySelector('#form-Submit').addEventListener('click',function(){
 
     if(document.querySelector('.lastname').value === ''){
         document.querySelector('.error').innerText = 'Last Name is wrong'
+        return;
     }else{
         document.querySelector('.error').innerText= ''
     }
-})
 
-document.querySelector('#form-Submit').addEventListener('click',function(){
 
     if(document.querySelector('.phNumber').value === ''){
         document.querySelector('.error').innerText = 'Phone Number is wrong'
+        return;
     }else{
         document.querySelector('.error').innerText= ''
     }
+
+
+    if(document.querySelector('.address').value === ''){
+        document.querySelector('.error').innerText = 'Please fill proper address'
+        return;
+    }else{
+        document.querySelector('.error').innerText= ''
+    }
+
+    if(document.querySelector('.subMit').value === ''){
+        document.querySelector('.error').innerText = 'Please fill the details'
+        // return;
+    }else{
+        document.querySelector('.error').innerText= 'Successfully Submitted........'
+    }
+
 })
 
-// document.querySelector('#form-Submit').addEventListener('click',function(){
 
-//     if(document.querySelector('.address').value === ''){
-//         document.querySelector('.error').innerText = 'Please fill proper address'
-//     }else{
-//         document.querySelector('.error').innerText= ''
-//     }
-// })
+
+
+
+
+
 
 
 
