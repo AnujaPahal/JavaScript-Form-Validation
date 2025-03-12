@@ -18,10 +18,13 @@ body{
 
 .box{
     width:50%;
-    height:80vh;
+    /* height:80vh; */
     background-color: rgb(245, 245, 245);
     margin: 0 auto;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    border-radius: 10px;
 }
 
 h2{
