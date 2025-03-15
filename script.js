@@ -17,7 +17,7 @@ document.querySelector('#form-Submit').addEventListener('click',function(){
 
 
     if(document.querySelector('.phNumber').value === ''){
-        document.querySelector('.error').innerText = 'Phone Number is wrong'
+        document.querySelector('.error').innerText = 'Phone Number is required'
         return;
     }else{
         document.querySelector('.error').innerText= ''
