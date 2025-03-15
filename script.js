@@ -1,16 +1,15 @@
 document.querySelector('#form-Submit').addEventListener('click',function(){
     // console.log('click on submit button')
-
     if(document.querySelector('.firstname').value === ''){
-        document.querySelector('.error').innerText = 'First Name is wrong'
-        return;
+        document.querySelector('.error').innerText = 'First Name is required'
+        return;        
     }else{
         document.querySelector('.error').innerText= ''
     }
 
 
     if(document.querySelector('.lastname').value === ''){
-        document.querySelector('.error').innerText = 'Last Name is wrong'
+        document.querySelector('.error').innerText = 'Last Name is required'
         return;
     }else{
         document.querySelector('.error').innerText= ''
