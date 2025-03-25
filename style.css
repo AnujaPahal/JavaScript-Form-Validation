@@ -39,14 +39,14 @@ tr{
 td input{
     width:320px;
     height:40px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     margin-right: 30px;
 }
 
 tr textarea{
     width:320px;
     height:70px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     margin-right: 30px;
 
 }
